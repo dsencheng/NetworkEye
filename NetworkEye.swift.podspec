@@ -28,7 +28,8 @@ NetworkEye is a network monitor,automatic catch the request and response infomat
   s.source           = { :git => 'https://github.com/zixun/NetworkEye.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/zixun_'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'NetworkEye/Classes/**/*'
   s.dependency 'AppSwizzle', '~> 1.3.1'
